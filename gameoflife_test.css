@@ -1,6 +1,15 @@
 body {
+	font-family: 'ARCADECLASSIC';
 	overflow: hidden;
+	background: #222;
+	color: #ddd;
 	margin: 0;
+}
+@font-face {
+  font-family: 'ARCADECLASSIC';
+  src: url('ARCADECLASSIC.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 img {
 	float: left;
