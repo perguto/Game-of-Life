@@ -1,19 +1,31 @@
+<!-- vim: tabstop=2 shiftwidth=2
+-->
 <html>
-		<head>
-				<script crossorigin="anonymous" src="https://unpkg.com/game-life@1.2.0-b/umd/gamelife.min.js"></script>
-				<script src="gameoflife_test.js"></script>
-		</head>
-		<body style="overflow: hidden">
-				<!-- <canvas width="100vw" height="80vh"> -->
-				<canvas>
-				</canvas>
-				<h4 id="how-to-use">How to use</h4>
-				<ul>
-						<li>Drag to explore the board</li>
-						<li>Double click to spawn/kill cells</li>
-						<li>Mouse wheel to zoom in/out</li>
-						<li>Enter to start/pause evolution</li>
-						<li>+/- keys to speed up/down</li>
-				</ul>
-		</body>
+	<head>
+		<link rel="stylesheet" href="gameoflife_test.css"></link>
+		<!-- <script crossorigin="anonymous" src="https://unpkg.com/game-life@1.2.0-b/umd/gamelife.min.js"></script> -->
+		<!-- <script src="./lib/em/index.js"></script> -->
+		<script src="./umd/gamelife.min.js"></script>
+		<script src="gameoflife_test.js"></script>
+	</head>
+	<body>
+<img src="./title_1.2border.png" style="
+/*max-width:60vw;*/
+max-height:18vh;
+"/>
+		<div class='container'>
+		<h4 id="how-to-use">How to play</h4>
+		<ul>
+			<li>Drag to explore the board</li>
+			<li>Double click to spawn/kill cells</li>
+			<li>Mouse wheel to zoom in/out</li>
+			<li>Enter to start/pause evolution</li>
+			<li>+/- keys to speed up/down</li>
+		</ul>
+		</div>
+		<canvas width="100vw" height="80vh">
+		<!-- <canvas width="1920" height="900"> -->
+		<!-- <canvas> -->
+		</canvas>
+	</body>
 </html>

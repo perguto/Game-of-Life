@@ -4,6 +4,7 @@ function init() {
 	const settings = {
 		graphics: {
 			// board: {width: "100vw", height: "80vh"},
+			board: {width: 1920, height: 900},
 			colors: {background: '#FFFFFF', grid: '#E0E0E0'},
 			cells: {size: 20}
 		},

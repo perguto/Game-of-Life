@@ -1,0 +1,16 @@
+body {
+	overflow: hidden;
+	margin: 0;
+}
+img {
+	float: left;
+	padding: 10px;
+}
+.container {
+/* 	display: block; */
+	float: left;
+	padding-left:2em;
+}
+canvas {
+	/* padding-top:10px; */
+}
